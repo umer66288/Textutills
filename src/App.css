@@ -1,0 +1,38 @@
+.accordion-button:focus{
+  box-shadow: none;
+}
+#inputPassword5{
+  box-shadow: none;
+}
+.navbar-toggler{
+  border: none;
+}
+.navbar-toggler:focus{
+  box-shadow: none;
+}
+#input-red:checked{
+ background-color: red; 
+ box-shadow: none;
+ border:red ;
+}
+#input-green:checked{
+  background-color: green; 
+  box-shadow: none;
+  border:green ;
+}
+#input-yellow:checked{
+  background-color: yellow; 
+  box-shadow: none;
+  border:yellow ;
+}
+#input-black:checked{
+  background-color: black; 
+  box-shadow: none;
+  border:white !important;
+}
+#input-green,
+#input-yellow,
+#input-black,
+#input-red:focus{
+  box-shadow: none;
+} 
